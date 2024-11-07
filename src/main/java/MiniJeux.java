@@ -8,4 +8,5 @@ public class MiniJeux {
         test.grille[0][2]=2;
         System.err.println(Arrays.toString(test.grille[0])+" La somme ligne "+test.sommeLigne(0));
     }
+    
 }
