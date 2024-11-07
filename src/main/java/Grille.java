@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Grille{
     int [][] grille;
 
@@ -19,6 +21,12 @@ public class Grille{
 
     public int sommeDiag2(){
         return grille[0][2]+grille[1][1]+grille[2][0];
+    }
+
+    public void afficherGrille(){
+        System.out.println(Arrays.toString(grille[0]));
+        System.out.println(Arrays.toString(grille[1]));
+        System.out.println(Arrays.toString(grille[2]));
     }
 
 
