@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Grille{
     int [][] grille;
 
@@ -21,6 +23,10 @@ public class Grille{
         return grille[0][2]+grille[1][1]+grille[2][0];
     }
 
-
+    public void affichage(){
+        for(int i = 0; i <3;i++){
+            System.out.println(Arrays.toString(this.grille[i]));
+        }
+    }
     
 }
