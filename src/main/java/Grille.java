@@ -29,6 +29,23 @@ public class Grille{
         System.out.println(Arrays.toString(grille[2]));
     }
 
+    public int[] getLigne(int i) {
+        return new int[]{grille[i][0], grille[i][1], grille[i][2]};
+    }
+    
+    public int[] getColonne(int i) {
+        return new int[]{grille[0][i], grille[1][i], grille[2][i]};
+    }
+    
+    public int[] getDiag1() {
+        return new int[]{grille[0][0], grille[1][1], grille[2][2]};
+    }
+    
+    public int[] getDiag2() {
+        return new int[]{grille[0][2], grille[1][1], grille[2][0]};
+    }
+    
+
 
     
 }
