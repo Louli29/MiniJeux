@@ -8,6 +8,13 @@
             "type": "java",
             "name": "MiniJeux",
             "request": "launch",
+            "mainClass": "game.MiniJeux",
+            "projectName": "artifactId"
+        },
+        {
+            "type": "java",
+            "name": "MiniJeux",
+            "request": "launch",
             "mainClass": "MiniJeux",
             "projectName": "artifactId"
         },

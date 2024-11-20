@@ -1,7 +1,8 @@
+package grid;
 import java.util.Arrays;
 
 public class Grille{
-    int [][] grille;
+    public int [][] grille;
 
     public Grille(){
         this.grille= new int[3][3];
@@ -9,6 +10,7 @@ public class Grille{
 
     public int sommeLigne(int ligne){
         return grille[ligne][0]+grille[ligne][1]+grille[ligne][2];
+
     }
 
     public int sommeColonne(int colonne){
